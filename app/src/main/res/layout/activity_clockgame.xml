@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clockgame">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/arkaplan">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/st"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp"
+        android:text="FIND THE RIGHT TIME AND CLOCK"
+        android:textSize="25sp">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="140dp"
+        android:layout_marginTop="40dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/saat" />
+    <ImageButton
+        android:id="@+id/gm"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/img"
+        android:scaleType="fitXY"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="150dp">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/editTextPhone"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:text="@string/_10_10"
+
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/img_1"
+        android:layout_below="@id/imageView3"
+       />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/img_18"
+        android:layout_below="@id/imageView4"
+       />
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/img_19"
+        android:scaleType="centerCrop"
+        android:layout_below="@id/imageView5"
+        />
+    <ImageButton
+        android:id="@+id/gm2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/gm1"
+        android:layout_marginTop="100dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/img" />
+    <ImageButton
+        android:id="@+id/gm3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_below="@id/gm2"
+        android:layout_marginTop="80dp"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/img" />
+
+    <ImageButton
+        android:id="@+id/gm1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/gm"
+        android:scaleType="fitXY"
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="13:55"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:textSize="25sp"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="500dp"
+
+        android:textColor="@color/black"
+        android:text="9:30"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="75dp"
+        android:text="14:40"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN PAGE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/saatgeri"/>
+
+
+</RelativeLayout>

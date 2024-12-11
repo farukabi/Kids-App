@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_33"
+
+    tools:context=".yon">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="MAIN PAGE"
+        android:id="@+id/anasyf"/>
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sayi"
+        android:layout_alignParentRight="true"
+        android:text="R"
+        android:id="@+id/reset1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAINED EXPERIENCE"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/kdnym"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kdnym"
+        android:text="0"
+        android:textColor="@color/yellow"
+        android:id="@+id/sayi"
+        android:textSize="25sp"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHOSEN DIRECTION:"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/scl"/>
+    <TextView
+        android:id="@+id/yn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scl"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        />
+
+    <ImageButton
+        android:id="@+id/bck"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/frw"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+   android:layout_marginLeft="270dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_arrow_forward_24" />
+
+    <ImageButton
+        android:id="@+id/aup"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@id/pnt"
+        android:layout_marginStart="-249dp"
+        android:layout_marginBottom="-4dp"
+        android:layout_toEndOf="@id/frw"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_arrow_upward_24" />
+
+    <ImageButton
+        android:id="@+id/down"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/pnt"
+        android:layout_marginStart="-114dp"
+        android:layout_marginTop="-5dp"
+        android:layout_toEndOf="@id/aup"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_arrow_downward_24" />
+
+    <ImageButton
+        android:id="@+id/pnt"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/img_4" />
+
+</RelativeLayout>

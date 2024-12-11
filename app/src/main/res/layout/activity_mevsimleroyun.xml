@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".mevsimleroyun">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GAINED EXPERIMENT:"
+        android:textSize="20sp"
+        android:layout_below="@+id/ibah"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/dny"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_below="@+id/dny"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:id="@+id/kdny"/>
+
+
+    <ImageView
+
+    android:id="@+id/sb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/img_23"
+    android:visibility="invisible"
+        android:layout_below="@id/kdny"
+    android:scaleType="fitXY"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/img_25"
+        android:layout_below="@id/kdny"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:id="@+id/yz"/>
+
+    <ImageView
+    android:id="@+id/ks"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:src="@drawable/img_3"
+    android:visibility="invisible"
+        android:layout_below="@id/kdny"
+    android:scaleType="fitXY"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/img_24"
+        android:scaleType="fitXY"
+        android:layout_below="@id/kdny"
+        android:visibility="invisible"
+        android:id="@+id/ib"/>
+    <Button
+
+        android:id="@+id/don"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:text="SUMMER"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WINTER"
+        android:layout_toEndOf="@id/don"
+        android:id="@+id/kis"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPRING"
+        android:layout_toEndOf="@id/kis"
+        android:id="@+id/ibah"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTUMN"
+        android:layout_toEndOf="@id/ibah"
+        android:id="@+id/sbah"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:layout_toEndOf="@id/sbah"
+        android:id="@+id/rst"/>
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAIN PAGE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

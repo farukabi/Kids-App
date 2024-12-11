@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@color/yellow"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register:"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:drawablePadding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="UserName"
+        android:layout_marginTop="100dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:id="@+id/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:drawablePadding="10dp"
+        android:layout_below="@id/username"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:id="@+id/password"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Confirm Password"
+        android:inputType="numberPassword"
+        android:layout_below="@id/password"
+        android:layout_marginTop="50dp"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:id="@+id/repassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsignup"
+        android:text="REGISTER"
+
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/repassword"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsignin"
+        android:text="LOGIN"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/btnsignup"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsignup"
+        android:layout_marginTop="10dp"
+        android:text="If You Have Account "
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
+
+
+

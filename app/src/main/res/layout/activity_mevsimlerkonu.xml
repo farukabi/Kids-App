@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mevsimlerkonu">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_2"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTUMN"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="45sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WINTER"
+        android:layout_marginTop="200dp"
+        android:textColor="@color/black"
+        android:textSize="45sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SPRING"
+        android:layout_marginTop="350dp"
+        android:textColor="@color/black"
+        android:textSize="45sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMMER"
+        android:layout_marginTop="475dp"
+        android:textColor="@color/black"
+        android:textSize="45sp"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_25"
+        android:layout_marginTop="450dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_24"
+        android:layout_marginTop="300dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_23"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/img_3"
+        android:scaleType="fitXY"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:id="@+id/geri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:text="BACK"/>
+
+    <Button
+        android:id="@+id/oyn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/geri"
+        android:text="PLAY" />
+
+</RelativeLayout>

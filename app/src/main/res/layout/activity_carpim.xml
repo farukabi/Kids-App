@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_35"
+
+    tools:context=".carpim">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATION"
+        android:layout_centerHorizontal="true"
+        android:textSize="43sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/geri"
+        android:layout_alignParentRight="true"
+        android:id="@+id/button8"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="56dp"
+        android:text="6*7"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="-75dp"
+        android:textSize="35sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/carp"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:hint="result"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_5"
+        android:textSize="45sp"
+        android:layout_marginTop="180dp"
+        android:textColor="@color/black"
+        android:id="@+id/txt5"/>
+    <EditText
+        android:id="@+id/carp1"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="result"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="150dp"
+
+        android:text="@string/kontrol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="150dp"
+
+        android:text="CONTROL"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="200dp"
+
+        android:textSize="35sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:text="4*8"/>
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:hint="result"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTROL"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:layout_marginTop="420dp"
+        android:textColor="@color/black"
+        android:text="7*9"/>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:hint="result"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLUE:"
+        android:textColor="@color/purple"
+        android:layout_below="@id/edt1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:id="@+id/ipu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt1"
+        android:layout_marginStart="3dp"
+        android:textColor="@color/purple_200"
+        android:textStyle="italic"
+        android:layout_toEndOf="@id/ipu"
+        android:text="a*b=sum of b a's or a sum of a b's"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTROL"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="SCORE" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:text="0" />
+
+</RelativeLayout>

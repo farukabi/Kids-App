@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">As Easy As Pie</string>
+    <string name="ifre">Şifre</string>
+    <string name="g_r">GİRİŞ</string>
+    <string name="ho_geld_n_z">WELCOME</string>
+    <string name="renmek_sted_n_z_konuyu_se_n">CHOOSE SUBJECT</string>
+    <string name="saatler">HOURS</string>
+    <string name="mevsimler">SEASONS</string>
+    <string name="g_nler">DAYS</string>
+    <string name="aylar">MONTHS</string>
+    <string name="kullan_c_ad">User Name</string>
+    <string name="geri">Back</string>
+    <string name="başlat">Start</string>
+    <string name="todo">TODO</string>
+    <string name="SAATLER">HOURS</string>
+    <string name="ANALOG">ANALOG</string>
+    <string name="DİJİTAL">DIJITAL</string>
+    <string name="KONUANLATIMI">LECTURE</string>
+    <string name="kisa_olan_akrep">KISA OLAN AKREP</string>
+    <string name="uzun_olan_yelkovan">UZUN OLAN YELKOVAN</string>
+    <string name="saat_oyunu">CLOCK GAME</string>
+    <string name="basla">START</string>
+    <string name="_10_10">10:10</string>
+    <string name="_9_bu_uk">9 BUÇUK</string>
+    <string name="g_nler_aylar">Days-Months</string>
+    <string name="furkan">furkan</string>
+    <string name="se_len_ay">Chosen Month</string>
+    <string name="_5_5">5*5</string>
+    <string name="kontrol">control</string>
+</resources>

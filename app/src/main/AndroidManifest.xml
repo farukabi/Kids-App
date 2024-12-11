@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectAttempt"
+        tools:targetApi="31">
+        <activity
+            android:name=".yon"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".dikkatoyunu"
+            android:exported="false" />
+        <activity
+            android:name=".gunay"
+            android:exported="false" />
+        <activity
+            android:name=".carpim"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimleroyun"
+            android:exported="false" />
+        <activity
+            android:name=".mevsimlerkonu"
+            android:exported="false" />
+        <activity
+            android:name=".clockgame"
+            android:exported="false" />
+        <activity
+            android:name=".clock"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
